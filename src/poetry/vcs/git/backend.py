@@ -211,6 +211,7 @@ class Git:
                 path,
                 local,
                 determine_wants=local.object_store.determine_wants_all,
+                depth=1
             )
             return result
 
